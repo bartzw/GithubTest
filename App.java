@@ -3,7 +3,7 @@ public class App {
         System.out.println("App.main");
     }
     private static void doStuff() {
-        System.out.println("Feature X: Do stuff");
+        System.out.println("App.doStuff called by featuryY");
     }
     private static void featureY() {
         doStuff();
